@@ -14,7 +14,7 @@ This is official tensorflow implementation of “PIAFusion: A Progressive Infrar
 Run: "python main.py --epoch=100 --is_train=True model_type=Illum --DataSet=MSRS"
 ### Training the Illmination-Aware Fusion Network
 Run: "python main.py --epoch=30 --is_train=True model_type=PIAFusion --DataSet=MSRS"
-The training data can be load from [here](1111).
+The training data can be load from [here](https://pan.baidu.com/s/1LuHqXRWn_hquFMMiTWJ4HA), where the extraction code is: **0223**.
 
 ## To Testing
 ### The MSRS Dataset
