@@ -1,5 +1,5 @@
 # PIAFusion
-The code of “PIAFusion: A Progressive Infrared and Visible Image Fusion Network Based on Illumination Aware”
+This is official tensorflow implementation of “PIAFusion: A Progressive Infrared and Visible Image Fusion Network Based on Illumination Aware”
 
 ## Recommended Environment
 
