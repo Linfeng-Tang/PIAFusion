@@ -26,7 +26,7 @@ Run: "python main.py --is_train=False model_type=PIAFusion --DataSet=RoadScene"
 ### The TNO Dataset
 Run: "python main.py --is_train=False model_type=PIAFusion --DataSet=TNO"
 
-#### Acknowledgement
+## Acknowledgement
 Our Multi-Spectral Road Scenarios (**MSRS**) dataset is constructed on the basis of the **[MFNet](https://github.com/haqishen/MFNet-pytorch)** dataset[1].
 
 [1] Ha, Q., Watanabe, K., Karasawa, T., Ushiku, Y., Harada, T., 2017. Mfnet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes, in: Proceedings of the IEEE International Conference on Intelligent Robots and Systems, pp.5108–5115.
