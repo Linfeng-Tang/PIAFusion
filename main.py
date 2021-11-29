@@ -16,10 +16,10 @@ flags.DEFINE_float("learning_rate", 1e-3, "The learning rate of gradient descent
 flags.DEFINE_integer("stride", 24, "The size of stride to apply input image [14]")
 flags.DEFINE_string("checkpoint_dir", "checkpoint", "Name of checkpoint directory [checkpoint]")
 flags.DEFINE_string("summary_dir", "log", "Name of log directory [log]")
-flags.DEFINE_boolean("is_train",False, "True for training, False for testing [True]")
+flags.DEFINE_boolean("is_train", False, "True for training, False for testing [True]")
 flags.DEFINE_string("model_type", 'PIAFusion', "Illum for training the Illumination Aware network,"
-                                                 " PIAFusion for training the Fusion Network [classifier]")
-flags.DEFINE_string("DataSet", 'TNO', "The Dataset for Testing, TNO, RoadScene, MSRS,  [TNO]")
+                                                 " PIAFusion for training the Fusion Network [PIAFusion]")
+flags.DEFINE_string("DataSet", 'MSRS', "The Dataset for Testing, TNO, RoadScene, MSRS,  [TNO]")
 FLAGS = flags.FLAGS
 
 pp = pprint.PrettyPrinter()

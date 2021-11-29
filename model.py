@@ -238,7 +238,7 @@ class PIAFusion(object):
                             start_time = time.time()
                     self.save(config.checkpoint_dir, ep)
         else:
-            print(self.model_type == 'IAFusionModel')
+            print(self.model_type == 'PIAFusion')
             print("Data preparation!")
             dataset_name = 'data_VIF.h5'
             # if config.DataSet == 'TNO':
@@ -255,7 +255,6 @@ class PIAFusion(object):
             if config.is_train:
                 print('images shape: ', images.shape)
                 num_imgs = sources.shape[0]
-                # num_imgs = 800
                 mod = num_imgs % self.batch_size
                 n_batches = int(num_imgs // self.batch_size)
                 print('Train images number %d, Batches: %d.\n' % (num_imgs, n_batches))
@@ -426,11 +425,7 @@ class PIAFusion(object):
                 filelist.sort(key=lambda x: int(x[0:-4]))
             else:
                 filelist.sort(key=lambda x: int(x[0:-5]))
-            self.ir_feature_dir = os.path.join('./Features', config.DataSet, 'ir')
-            check_folder(self.ir_feature_dir)
-            self.vi_feature_dir = os.path.join('./Features', config.DataSet, 'vi')
-            check_folder(self.vi_feature_dir)
-            self.fusion_dir = os.path.join('./Fusion_results', config.model_type, config.DataSet)
+            self.fusion_dir = os.path.join('./Fusion_results', config.DataSet)
             check_folder(self.fusion_dir)
 
             with tf.name_scope('input'):
