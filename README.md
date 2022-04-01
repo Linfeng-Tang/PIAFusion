@@ -1,5 +1,5 @@
 # PIAFusion
-This is official tensorflow implementation of “PIAFusion: A Progressive Infrared and Visible Image Fusion Network Based on Illumination Aware”
+This is official tensorflow implementation of “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware”
 
 ## Recommended Environment
 
@@ -32,3 +32,12 @@ Our Multi-Spectral Road Scenarios (**MSRS**) dataset is constructed on the basis
 [1] Ha, Q., Watanabe, K., Karasawa, T., Ushiku, Y., Harada, T., 2017. Mfnet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes, in: Proceedings of the IEEE International Conference on Intelligent Robots and Systems, pp.5108–5115.
 
 ## If this work is helpful to you, please cite it as：
+```
+@article{Tang2022PIAFusion,
+  title={PIAFusion: A progressive infrared and visible image fusion network based on illumination aware},
+  author={Tang, Linfeng and Yuan, Jiteng and Zhang, Hao and Jiang, Xingyu and Ma, Jiayi},
+  journal={Information Fusion},
+  year={2022},
+  publisher={Elsevier}
+}
+```
