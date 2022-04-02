@@ -20,9 +20,11 @@ The visible image contains abundant information, such as texture details in the 
 
  ### Training the Illumination-Aware Sub-Network
 Run: "python main.py --epoch=100 --is_train=True model_type=Illum --DataSet=MSRS"
+The dataset for training the illumination-aware sub-network can be download from [data_illum.h5](https://pan.baidu.com/s/12Xu1Ep7kKwe03HFBQYWkhw?pwd=PIAF ).
+
 ### Training the Illmination-Aware Fusion Network
 Run: "python main.py --epoch=30 --is_train=True model_type=PIAFusion --DataSet=MSRS"
-The training data can be load from [here](https://pan.baidu.com/s/1LuHqXRWn_hquFMMiTWJ4HA), where the extraction code is: **0223**.
+The dataset for training the illumination-aware fusion network can be download from [data_MSRS.h5](https://pan.baidu.com/s/1cO_wn2DOpiKLjHPaM1xZYQ?pwd=PIAF).
 
 ## To Testing
 ### The MSRS Dataset
