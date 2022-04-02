@@ -1,6 +1,9 @@
 # PIAFusion
 This is official tensorflow implementation of “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware”
 
+## Architecture
+![The overall framework of the progressive infrared and visible image fusion algorithm based on illumination-aware.](https://github.com/Linfeng-Tang/PIAFusion/blob/main/Figure/Illumination_aware.png)
+
 ## Recommended Environment
 
  - [ ] tensorflow-gpu 1.14.0 
