@@ -2,8 +2,13 @@
 This is official tensorflow implementation of “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware”
 
 ## Architecture
-![The overall framework of the progressive infrared and visible image fusion algorithm based on illumination-aware.](https://github.com/Linfeng-Tang/PIAFusion/blob/main/Figure/Illumination_aware.png)
+![The overall framework of the progressive infrared and visible image fusion algorithm based on illumination-aware.](https://github.com/Linfeng-Tang/PIAFusion/blob/main/Figure/PIAFusion.png)
 
+## Example
+
+![An example of illumination imbalance.](https://github.com/Linfeng-Tang/PIAFusion/blob/main/Figure/Illumination_aware.png)
+An example of illumination imbalance. From left to right: infrared image, visible image, the fused results of DenseFuse, FusionGAN, and our proposed PIAFusion.
+The visible image contains abundant information, such as texture details in the daytime (top row). But salient targets and textures are all included in the infrared image at nighttime (bottom row). Existing methods ignore the illumination imbalance issues, causing detail loss and thermal target degradation. Our algorithm can adaptively integrate meaningful information according to illumination conditions.
 ## Recommended Environment
 
  - [ ] tensorflow-gpu 1.14.0 
