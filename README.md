@@ -49,7 +49,10 @@ Our Multi-Spectral Road Scenarios (**[MSRS](https://github.com/Linfeng-Tang/MSRS
   title={PIAFusion: A progressive infrared and visible image fusion network based on illumination aware},
   author={Tang, Linfeng and Yuan, Jiteng and Zhang, Hao and Jiang, Xingyu and Ma, Jiayi},
   journal={Information Fusion},
-  year={2022},
+  volume = {83-84},
+  pages = {79-92},
+  year = {2022},
+  issn = {1566-2535},
   publisher={Elsevier}
 }
 ```
