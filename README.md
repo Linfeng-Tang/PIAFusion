@@ -1,5 +1,6 @@
 # PIAFusion
-This is official tensorflow implementation of “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware”
+This is official tensorflow implementation of “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware”.
+
 The PyTorch implementation of our project, accomplished by [linklist2](https://github.com/linklist2), can be fetched from [https://github.com/linklist2/PIAFusion_pytorch](https://github.com/linklist2/PIAFusion_pytorch).
 
 A new benchmark dataset for infrared and visible fusion are released in this paper, which is termed **[MSRS](https://github.com/Linfeng-Tang/MSRS)**.
