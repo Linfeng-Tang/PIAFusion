@@ -1,5 +1,5 @@
 # PIAFusion
-This is official tensorflow implementation of “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware”.
+This is official tensorflow implementation of “[PIAFusion: A progressive infrared and visible image fusion network based on illumination aware](https://www.sciencedirect.com/science/article/abs/pii/S156625352200032X)”.
 
 The PyTorch implementation of our project, accomplished by @[linklist2](https://github.com/linklist2), can be fetched from [https://github.com/linklist2/PIAFusion_pytorch](https://github.com/linklist2/PIAFusion_pytorch).
 
